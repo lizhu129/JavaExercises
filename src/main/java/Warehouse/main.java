@@ -1,19 +1,20 @@
 package Warehouse;
 
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
 
         Warehouse warehouse = new Warehouse();
-        warehouse.addProduct("milk", 3, 10);
-        warehouse.addProduct("coffee", 5, 6);
-        warehouse.addProduct("buttermilk", 2, 20);
-        warehouse.addProduct("yogurt", 2, 20);
+        warehouse.addProduct("coffee", 5, 10);
+        warehouse.addProduct("milk", 3, 20);
+        warehouse.addProduct("cream", 2, 55);
+        warehouse.addProduct("bread", 7, 8);
 
-        System.out.println("products:");
+        Scanner scanner = new Scanner(System.in);
 
-        for (String product: warehouse.products()) {
-            System.out.println(product);
-        }
+        Store store = new Store(warehouse, scanner);
+        store.shop("John");
 
     }
 }

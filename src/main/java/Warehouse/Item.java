@@ -11,8 +11,22 @@ public class Item {
         this.unitPrice = unitPrice;
     }
 
+    public Item(String product, int price) {
+        this.product = product;
+        this.unitPrice = price;
+        this.qty = 1;
+    }
+
     public int price() {
         return this.unitPrice * this.qty;
     }
 
+    public void increaseQuantity() {
+        this.qty++;
+    }
+
+    @Override
+    public String toString() {
+        return this.product + ": " + this.qty;
+    }
 }
