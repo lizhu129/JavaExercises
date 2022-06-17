@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef20cfd-3533-4fe4-bb51-da613f8e39cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AverageNumbers/AverageNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AverageNumbers/Divisible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Literature/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Literature/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/BySuitInValueOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/SortBySuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -50,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Literature.main">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Animals.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animals.main" />
       <module name="JavaExercises" />
@@ -103,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Warehouse.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Warehouse.main" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortThemCards.main" />
       <module name="JavaExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Warehouse.*" />
+          <option name="PATTERN" value="SortThemCards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Literature.main" />
         <item itemvalue="Application.Divisible" />
         <item itemvalue="Application.AverageNumbers" />
         <item itemvalue="Application.Animals.main" />
-        <item itemvalue="Application.Warehouse.main" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655406731577</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new exercise">
+      <created>1655488905345</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655488905346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,10 +227,10 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="test: check if an array contains duplicated numbers" />
-    <MESSAGE value="new exercise" />
     <MESSAGE value="new exercise Warehouse" />
     <MESSAGE value="new exercise inheritance and interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="new exercise inheritance and interface" />
+    <MESSAGE value="new exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="new exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
