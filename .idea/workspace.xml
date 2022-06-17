@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef20cfd-3533-4fe4-bb51-da613f8e39cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/NoiseCapable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AverageNumbers/AverageNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AverageNumbers/Divisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Literature/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Literature/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,13 +50,52 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Animals.main">
+  <component name="RunManager" selected="Application.Literature.main">
     <configuration name="Animals.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animals.main" />
       <module name="JavaExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AverageNumbers.AverageNumbers" />
+      <module name="JavaExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AverageNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Divisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AverageNumbers.Divisible" />
+      <module name="JavaExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AverageNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Literature.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Literature.main" />
+      <module name="JavaExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Literature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,32 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise1.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise1.main" />
-      <module name="JavaExercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.main" />
-      <module name="JavaExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Literature.main" />
+        <item itemvalue="Application.Divisible" />
+        <item itemvalue="Application.AverageNumbers" />
         <item itemvalue="Application.Animals.main" />
         <item itemvalue="Application.Warehouse.main" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.exercise1.main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655404892575</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new exercise inheritance and interface">
+      <created>1655406731577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655406731577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +218,8 @@
     <MESSAGE value="test: check if an array contains duplicated numbers" />
     <MESSAGE value="new exercise" />
     <MESSAGE value="new exercise Warehouse" />
-    <option name="LAST_COMMIT_MESSAGE" value="new exercise Warehouse" />
+    <MESSAGE value="new exercise inheritance and interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="new exercise inheritance and interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -200,6 +227,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
