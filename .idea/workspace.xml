@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef20cfd-3533-4fe4-bb51-da613f8e39cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/BySuitInValueOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/SortBySuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortThemCards/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/AmountPaidInTaxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/exercise1/main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -209,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655488905346</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new exercise">
+      <created>1655494507532</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655494507534</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
